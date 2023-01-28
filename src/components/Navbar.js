@@ -9,6 +9,7 @@ class Navbar extends Component {
   };
   render() {
     return (
+      <div className="Navbar-Main">
       <nav className="Navbar-Items">
         <h1 className="logo">
           Style Anywhere <i className="fa-solid fa-restroom"></i>
@@ -31,6 +32,7 @@ class Navbar extends Component {
           })}
         </ul>
       </nav>
+      </div>
     );
   }
 }
