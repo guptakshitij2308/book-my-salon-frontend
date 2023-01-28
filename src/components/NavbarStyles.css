@@ -1,0 +1,172 @@
+.Navbar-Items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0px 30px;
+  background-color: rgb(255, 224, 242);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  width: 95%;
+  height: 80px;
+  border-radius: 15px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.logo {
+  color: rgb(63, 59, 62);
+  justify-self: start;
+  cursor: pointer;
+}
+
+.fa-hand-peace {
+  margin-left: 10px;
+  font-size: 1.6rem;
+}
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+}
+
+.nav-links i {
+  padding-right: 10px;
+}
+
+.nav-links:hover {
+  background-color: rgb(22, 22, 24);
+  color: #fff;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  transform: scalex(1.2);
+}
+
+.nav-links-book {
+  background-color: rgb(0, 0, 0);
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+}
+
+.nav-links-book:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  color: rgb(11, 12, 12);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.fa-bars,
+.fa-times {
+}
+
+.menu-icons {
+  display: none;
+}
+
+.nav-links-signup {
+  padding: 0.7rem 1.2rem;
+  white-space: no-wrap;
+  background-color: #000000;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: none;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.nav-links-signup:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  color: rgb(11, 12, 12);
+}
+.nav-links-login {
+  padding: 0.7rem 1.2rem;
+  white-space: no-wrap;
+  background-color: #000000;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: none;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.nav-links-login:hover {
+  background-color: rgb(255, 255, 255);
+  border-radius: 12px;
+  color: rgb(11, 12, 12);
+}
+
+@media (max-width: 950px) {
+  .Navbar-Items {
+    z-index: 99;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: -110%;
+    align-items: stretch;
+    padding: 80px 0 30px 0;
+    margin: 0;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .nav-menu.active {
+    left: 0%;
+  }
+
+  .nav-links:hover {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(20px);
+  }
+
+  .menu-icons {
+    display: block;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+  }
+
+  .nav-links-login {
+  }
+}
+
+@media (max-width: 1684px) {
+  .Navbar-Items {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1500px) {
+}
