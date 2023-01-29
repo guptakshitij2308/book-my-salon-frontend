@@ -1,11 +1,12 @@
 import "./App.css";
 import ParticlesBackground from "./components/ParticlesBackground";
 
+
 function App() {
-  return (
+ return (
     <div className="App">
       <ParticlesBackground />
-      <div></div>
+    
     </div>
   );
 }
