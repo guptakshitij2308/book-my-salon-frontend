@@ -19,6 +19,7 @@
   padding: 5px 20px;
   text-align: center;
   border-radius: 10px;
+  margin-bottom: 40px;
 }
 
 .row {
@@ -38,8 +39,13 @@
   transition: all 0.5s;
 }
 
-.Salon:hover {
+/* .Salon:hover {
   transform: translateY(10px);
+  transition: all 0.5s;
+} */
+.Salon:hover {
+  transform: scale(1.2);
+  box-shadow: rgba(175, 248, 224, 0.3) 0px 0px 0px 5px;
   transition: all 0.5s;
 }
 
@@ -54,10 +60,10 @@
   transition: all 0.4s;
 }
 
-.salon-image:hover {
+/* .salon-image:hover {
   transform: scale(1.1);
   transition: all 0.4s;
-}
+} */
 
 .salon-tag {
   position: absolute;
@@ -79,9 +85,9 @@
   transition: 0.3s;
 }
 
-.salon-image img:hover {
+/* .salon-image img:hover {
   transform: scale(1.06);
-}
+} */
 
 .salon-content {
   padding: 25px;
