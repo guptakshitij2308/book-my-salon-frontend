@@ -11,11 +11,12 @@ export const MenuData = [
     cName: "nav-links nav-links-book",
     icon: "fa-solid fa-circle-user",
   },
+
   {
-    title: "Testimonials",
+    title: "About Us",
     url: "#",
     cName: "nav-links",
-    icon: "fa-solid fa-wand-magic-sparkles",
+    icon: "fa-solid fa-circle-info",
   },
   {
     title: "Testimonials",
@@ -27,7 +28,7 @@ export const MenuData = [
     title: "Register Salon",
     url: "#",
     cName: "nav-links",
-    icon: "fa-solid fa-adress-card",
+    icon: "fa-solid fa-id-badge",
   },
 
   {

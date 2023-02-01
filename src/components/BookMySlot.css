@@ -1,0 +1,114 @@
+.book-my-slot {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  color: azure;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.book-form {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  background-color: rgba(128, 119, 119, 0.5);
+  border-radius: 2rem;
+  padding: 50px 60px 70px;
+  text-align: center;
+}
+
+.tagline {
+  color: #ffffff;
+  background: linear-gradient(to right, #d3114e, #881dac);
+  border-radius: 30px;
+  padding: 1rem 1.8rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  margin: auto;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  word-spacing: 0.25em;
+  width: calc(100% / 2);
+}
+
+.Details-All {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.input-text {
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  align-self: flex-start;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+input:active,
+input:hover {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.details-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.details-primary input,
+.details-secondary input {
+  padding: 1.2rem 8rem 1.2rem 1.2rem;
+  border-radius: 1rem;
+}
+
+input,
+select {
+  display: flex;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 15px;
+  background-color: #e3fafc;
+  font-family: inherit;
+  width: 100%;
+}
+
+.book-button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 18px 45px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #d3114e, #881dac);
+  margin-top: 50px;
+  color: #ffffff;
+  font-size: 28px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  word-spacing: 0.1em;
+  transition: all 0.5s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.book-button:hover {
+  background: black;
+  box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 0px 3px;
+  transition: all 0.5s ease-in-out;
+}

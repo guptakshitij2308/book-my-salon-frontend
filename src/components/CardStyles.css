@@ -150,20 +150,23 @@
 }
 
 .more-salons .more-salon-btn {
-  padding: 14px 31px;
+  padding: 1.5rem 4rem;
   display: inline-block;
   border-radius: 2rem;
-  font-size: 15px;
-  border: 1px solid #fdae5c;
-  font-weight: 400;
+  font-size: 25px;
+  border: 2px solid #ffffff;
+  background-color: #ffa646;
+  font-weight: 600;
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.5px;
-  color: #fdae5c;
-  transition: 0.5s ease;
+  color: #fff;
+  transition: 0.3s ease;
   text-decoration: none;
+  margin-bottom: 150px;
 }
 
 .more-salons .more-salon-btn:hover {
-  box-shadow: 0 0 40px 40px #fdae5c inset;
+  box-shadow: 0 0 40px 40px #ff992c inset;
   color: #fff;
+  transition: 0.3s ease;
 }
