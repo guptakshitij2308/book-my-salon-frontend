@@ -3,16 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  
- 
 }
-  
 
 .App {
   text-align: center;
- 
+
   /* background-image: -webkit-gradient( */
-    /* linear,
+  /* linear,
     left top,
     left bottom,
     from(rgba(61, 29, 52, 1)),
@@ -27,9 +24,10 @@
     top,
     rgba(61, 29, 52, 1),
     rgba(198, 47, 111, 1)
-  ); */ 
+  ); */
+  /* background: linear-gradient(
+    to right,
+    rgba(61, 29, 52, 1),
+    rgba(198, 47, 111, 1)
+  ); */
 }
-
-
-
-
