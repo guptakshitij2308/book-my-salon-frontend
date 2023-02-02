@@ -1,0 +1,115 @@
+.about-us {
+  padding: 6rem 0 10rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1611&q=80");
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us-main {
+  position: relative;
+  font-family: "Rubik", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  width: 70%;
+  color: #ffaa4f;
+  margin-bottom: 72px;
+}
+
+.about-us-main:after {
+  content: "";
+  position: absolute;
+  left: 45%;
+  bottom: -5px;
+  width: 10%;
+  height: 3px;
+  background: #ffad55;
+  margin: auto;
+}
+
+.Heading {
+  width: 50%;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.about img {
+}
+
+.about h4 {
+  line-height: 1.4;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.salon-pic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  overflow: hidden;
+  margin-right: -50px;
+  opacity: 0.5;
+}
+
+.salon-pic img:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+
+.salon-pic img {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: all 0.4s;
+}
+
+.salon-barber {
+  /* height: 600px; */
+  background: linear-gradient((rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)));
+  height: 300px;
+  width: 300px;
+}
+
+.welcome {
+  font-size: 72px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  color: #fdc032;
+  margin-bottom: 100px;
+}
+
+.about-text h4 {
+  font-size: 24px;
+  line-height: 1.6;
+  padding: 40px;
+}
+
+.first-para {
+  border: 5px solid;
+  border-radius: 35px;
+  border-left: 0px;
+  border-right: 0px;
+  margin-bottom: 40px;
+}
+.second-para {
+  border: 5px solid;
+  border-radius: 35px;
+  border-left: 0;
+  border-right: 0px;
+}
+
+.fa-quote-left {
+  margin-right: 10px;
+  width: 60px;
+}
+.fa-quote-right {
+  margin-left: 10px;
+  width: 60px;
+}
