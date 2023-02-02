@@ -47,6 +47,7 @@
   color: black;
   padding: 0.7rem 1rem;
   white-space: nowrap;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-links i {
@@ -92,10 +93,12 @@
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   margin-left: -15px;
+  transition: all 0.2s ease-in-out;
 }
 .nav-links-signup:hover {
   background-color: rgb(243, 54, 133);
   border-radius: 12px;
+  transition: all 0.2s ease-in-out;
 }
 .nav-links-login {
   padding: 0.7rem 1.2rem;
@@ -109,10 +112,12 @@
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
     rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   margin-left: -25px;
+  transition: all 0.2s ease-in-out;
 }
 .nav-links-login:hover {
   background-color: rgb(243, 54, 133);
   border-radius: 12px;
+  transition: all 0.2s ease-in-out;
 }
 
 @media (max-width: 950px) {

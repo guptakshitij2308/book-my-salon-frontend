@@ -27,10 +27,10 @@ function App() {
       <ContactForm />
       <Footer />
 
-      {/* <Navbar />
-      <Login />
-      <Signup />
-      <Footer /> */}
+      {/* <Navbar /> */}
+      {/* <Login /> */}
+      {/* <Signup /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
