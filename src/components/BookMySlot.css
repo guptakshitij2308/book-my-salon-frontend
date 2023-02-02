@@ -54,8 +54,8 @@
   margin-bottom: 5px;
 }
 
-input:active,
-input:hover {
+.Details-All input:active,
+.Details-All input:hover {
   box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
 
@@ -78,8 +78,8 @@ input:hover {
   border-radius: 1rem;
 }
 
-input,
-select {
+.Details-All input,
+.Details-All select {
   display: flex;
   padding: 15px;
   margin: 10px 0;

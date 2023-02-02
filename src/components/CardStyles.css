@@ -22,7 +22,7 @@
   margin-bottom: 40px;
 }
 
-.row {
+.row-card {
   padding-top: 4rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

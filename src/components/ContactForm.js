@@ -43,7 +43,7 @@ const ContactForm = () => {
               <div className="input-box message-box">
                 <input type="text" placeholder="Enter your message" />
               </div>
-              <div className="button">
+              <div className="button-send-us">
                 <a className="btn" href="mailto:beautelloe@yahoo.com">
                   Email Us
                 </a>

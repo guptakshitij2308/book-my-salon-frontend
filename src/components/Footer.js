@@ -30,7 +30,7 @@ const Footer = () => {
               <i class="fa-brands fa-youtube logo-icon"></i>
             </a>
           </div>
-          <p>
+          <p className="para">
             Copyright © 2023 by Beautello™,
             <br /> All rights reserved.
           </p>
@@ -38,12 +38,12 @@ const Footer = () => {
         <div>
           <div className="Contact-Us">
             <div className="Footer-Heading">Contact Us</div>
-            <p className="address">
+            <p className="address para">
               623 Harrison St., 2nd Floor,
               <br />
               San Francisco, CA 94107
             </p>
-            <p className="contact-details">
+            <p className="contact-details para">
               415-201-6370
               <br /> hello@omnifood.com
             </p>

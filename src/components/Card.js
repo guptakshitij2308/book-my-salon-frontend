@@ -13,7 +13,7 @@ const Card = () => {
           <h3>Popular Salons</h3>
         </div>
 
-        <div className="row">
+        <div className="row-card">
           {detail.map((detail) => {
             return (
               <div className="column" key={detail.id}>

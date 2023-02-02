@@ -7,6 +7,11 @@ import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
 import ContactForm from "./components/ContactForm";
+import Features from "./components/Features";
+import LoginOwner from "./components/LoginOwner";
+import SignupOwner from "./components/SignupOwner";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 
 function App() {
   return (
@@ -17,9 +22,15 @@ function App() {
         <Card />
       </div>
       <AboutUs />
+      <Features />
       <Testimonials />
       <ContactForm />
       <Footer />
+
+      {/* <Navbar />
+      <Login />
+      <Signup />
+      <Footer /> */}
     </div>
   );
 }

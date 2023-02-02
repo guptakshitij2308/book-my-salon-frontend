@@ -6,7 +6,7 @@ const ParticlesBackground = (props) => {
   const options = useMemo(() => {
     return {
       background: {
-        color: "rgba(rgba(198, 47, 111, 1))",
+        color: "rgba(198, 47, 111, 1)",
       },
       fullScreen: {
         enable: true,
