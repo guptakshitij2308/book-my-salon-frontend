@@ -7,8 +7,9 @@
 
 .App {
   text-align: center;
-  /* background-image: -webkit-gradient(
-    linear,
+
+  /* background-image: -webkit-gradient( */
+  /* linear,
     left top,
     left bottom,
     from(rgba(61, 29, 52, 1)),
