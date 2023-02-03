@@ -1,5 +1,6 @@
 import React from "react";
 import "./SignupOwner.css";
+import { Link } from "react-router-dom";
 
 const SignupOwner = () => {
   return (
@@ -78,6 +79,11 @@ const SignupOwner = () => {
             <button className="button">Sign Up</button>
           </div>
         </form>
+        <div className="link-back">
+          <Link to="/login-owner" style={{ textDecoration: "none" }}>
+            <a href="">Already Registered?Login Here</a>
+          </Link>
+        </div>
       </div>
     </div>
   );

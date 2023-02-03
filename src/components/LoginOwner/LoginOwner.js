@@ -1,4 +1,5 @@
 import "./LoginOwner.css";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -15,7 +16,9 @@ const Login = () => {
             <input type="Password" placeholder="Password" />
           </div>
           <div className="link">
-            <a href="/">Don't have an account?Sign Up Here</a>
+            <Link to="/register-salon" style={{ textDecoration: "none" }}>
+              <a href="#">Don't have an account?Sign Up Here</a>
+            </Link>
           </div>
           <div className="btn-field">
             <button className="button">Login</button>

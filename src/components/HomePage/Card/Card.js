@@ -1,6 +1,6 @@
 import "./CardStyles.css";
 import React, { useState } from "react";
-import SalonDetails from "../Details/SalonDetails";
+import SalonDetails from "../../../Details/SalonDetails";
 
 const Card = () => {
   // eslint-disable-next-line

@@ -1,6 +1,6 @@
 import "./Testimonials.css";
 import React, { useState } from "react";
-import TestimonialsDetails from "./TestimonialsData";
+import TestimonialsDetails from "../../../Details/TestimonialsData";
 // // import Swiper core and required modules
 import { Swiper, SwiperSlide } from "swiper/react";
 

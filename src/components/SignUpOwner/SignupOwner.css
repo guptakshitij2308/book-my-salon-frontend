@@ -115,6 +115,7 @@
 .btn-field {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .button {
@@ -153,4 +154,13 @@
 .button:active {
   box-shadow: none;
   transform: translateY(0);
+}
+
+.link-back a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link-back a:hover {
+  text-decoration: underline;
 }

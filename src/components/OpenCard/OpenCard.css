@@ -1,0 +1,116 @@
+.card-parent {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(
+      rgba(80, 78, 78, 0.75),
+      rgba(80, 78, 78, 0.75)
+    ),
+    url("https://images.pexels.com/photos/1502219/pexels-photo-1502219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  /* -webkit-filter: grayscale(50%); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.container-card {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  height: 520px;
+  width: 350px;
+  margin-top: 50px;
+  padding-bottom: 6rem;
+  border: black inset;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.Stars {
+  color: gold;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.address-salon {
+  border-bottom: 1px solid #a6a6a6;
+  padding-bottom: 15px;
+  text-align: left;
+  color: #504949;
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+.fa-clock {
+  margin-right: 8px;
+}
+
+.list {
+  border-bottom: 1px solid #a6a6a6;
+  padding-bottom: 15px;
+  text-align: left;
+  margin-top: 0px;
+  font-family: "Ubuntu", sans-serif;
+}
+.salonNmae {
+  text-align: left;
+  margin-bottom: 5px;
+  font-family: "Aboreto", cursive;
+}
+
+.image-card img {
+  height: 500px;
+  width: 550px;
+  margin-top: 90px;
+
+  margin-right: -10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.card-open {
+  display: flex;
+  justify-content: space-between;
+}
+.services-card-open {
+  border-bottom: 1px solid #a6a6a6;
+  margin-top: 0px;
+  text-align: left;
+  padding-bottom: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+.fa-cirlce {
+  height: 0.5px;
+  width: 0.5px;
+}
+.reviews-card h2 {
+  margin-bottom: 10px;
+}
+
+.button-card {
+  margin-left: 250px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #f83fd9;
+  display: inline-block;
+  text-decoration: none;
+}
+.button-card:hover {
+  background-color: black;
+  color: white;
+}
+.reviews-card li {
+  list-style: none;
+  margin: 10px;
+}
+.reviews-card {
+  font-family: "Ubuntu", sans-serif;
+}

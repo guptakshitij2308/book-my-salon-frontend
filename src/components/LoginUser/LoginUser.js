@@ -1,9 +1,11 @@
 import { useState } from "react";
-import "./Login.css";
+import "./LoginUser.css";
+import { useNavigate } from "react-router-dom";
 
 const Login = (props) => {
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
+  const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(email);
@@ -32,10 +34,7 @@ const Login = (props) => {
           </button>
         </form>
 
-        <button
-          className="link-btn"
-          onClick={() => props.onFormSwitch("signup")}
-        >
+        <button className="link-btn" onClick={() => navigate("/sign-up-user")}>
           Don't Have an Account?
           <br /> Register here
         </button>

@@ -1,6 +1,7 @@
 import { Component } from "react";
-import { MenuData } from "./MenuData";
+import { MenuData } from "../../Details/MenuData";
 import "./NavbarStyles.css";
+import { Link, useNavigate } from "react-router-dom";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -28,10 +29,12 @@ class Navbar extends Component {
             {MenuData.map((item, index) => {
               return (
                 <li key={index}>
-                  <a href={item.url} className={item.cName}>
-                    <i className={item.icon}></i>
-                    {item.title}
-                  </a>
+                  <Link to={item.url} style={{ textDecoration: "none" }}>
+                    <a href={item.url} className={item.cName}>
+                      <i className={item.icon}></i>
+                      {item.title}
+                    </a>
+                  </Link>
                 </li>
               );
             })}

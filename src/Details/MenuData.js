@@ -1,7 +1,7 @@
 export const MenuData = [
   {
     title: "Home",
-    url: "#",
+    url: "/",
     cName: "nav-links",
     icon: "fa-solid fa-house-user",
   },
@@ -14,13 +14,13 @@ export const MenuData = [
   },
   {
     title: "Testimonials",
-    url: "#",
+    url: "/testimonials",
     cName: "nav-links",
     icon: "fa-solid fa-wand-magic-sparkles",
   },
   {
     title: "Register Salon",
-    url: "#",
+    url: "/register-salon",
     cName: "nav-links",
     icon: "fa-solid fa-id-badge",
   },
@@ -34,12 +34,12 @@ export const MenuData = [
 
   {
     title: "Sign Up",
-    url: "#",
+    url: "sign-up-user",
     cName: "nav-links-signup",
   },
   {
     title: "Login",
-    url: "#",
+    url: "login-user",
     cName: "nav-links-login",
   },
 ];

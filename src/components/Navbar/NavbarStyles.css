@@ -120,6 +120,10 @@
   transition: all 0.2s ease-in-out;
 }
 
+/* Link {
+  text-decoration: none;
+} */
+
 @media (max-width: 950px) {
   .Navbar-Items {
     z-index: 99;

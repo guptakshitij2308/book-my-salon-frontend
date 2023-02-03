@@ -1,53 +1,51 @@
 import "./App.css";
-import ParticlesBackground from "./components/ParticlesBackground";
-import Navbar from "./components/Navbar";
-import Card from "./components/Card";
-import BookMySlot from "./components/BookMySlot";
-import Testimonials from "./components/Testimonials";
-import Footer from "./components/Footer";
-import AboutUs from "./components/AboutUs";
-import ContactForm from "./components/ContactForm";
-import Features from "./components/Features";
-import LoginOwner from "./components/LoginOwner";
-import SignupOwner from "./components/SignupOwner";
-import Login from "./components/Login";
-import Signup from "./components/Signup";
+
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import BookMySlot from "./components/BookMySlot/BookMySlot";
+import LoginOwner from "./components/LoginOwner/LoginOwner";
+import SignupOwner from "./components/SignUpOwner/SignupOwner";
+import LoginUser from "./components/LoginUser/LoginUser";
+import SignUpUser from "./components/SignUpUser/SignupUser";
+
+// import CardOpen from "./components/OpenCard/OpenCard";
+import OpenCard from "./components/OpenCard/OpenCard";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import HomePage from "./components/HomePage/HomePage";
+import Error from "./components/Error";
+import ScrollToTop from "./components/ScrollToTop";
+import Testimonials from "./components/HomePage/Testimonials/Testimonials";
 
 function App() {
   return (
-    <div className="App">
-      <ParticlesBackground />
-      <Navbar />
-      <div>
-        <Card />
-      </div>
-      <AboutUs />
-      <Features />
-      <Testimonials />
-      <ContactForm />
-      <Footer />
+    <Router>
+      <ScrollToTop />
+      <div className="App">
+        <Navbar />
+        {/* <OpenCard /> */}
+        <Routes>
+          {/*Home  */}
+          <Route path="/" element={<HomePage />}>
+            <Route path="/testimonials" element={<Testimonials />} />
+          </Route>
 
-      {/* <Navbar /> */}
-      {/* <Login /> */}
-      {/* <Signup /> */}
-      {/* <Footer /> */}
-    </div>
+          {/* <Route path='/' */}
+          <Route path="/book-my-slot" element={<BookMySlot />} />
+          <Route path="/login-owner" element={<LoginOwner />} />
+          <Route path="/register-salon" element={<SignupOwner />} />
+
+          <Route path="/login-user" element={<LoginUser />} />
+          <Route path="/sign-up-user" element={<SignUpUser />} />
+
+          <Route path="/open-card" element={<OpenCard />} />
+
+          <Route path="*" element={<Error />} />
+        </Routes>
+
+        <Footer />
+      </div>
+    </Router>
   );
 }
-
-// function Home() {
-//   return (
-//     <>
-//       <ParticlesBackground />
-//       <Navbar />
-//       <div>
-//         <Card />
-//       </div>
-//       <AboutUs />
-//       <Testimonials />
-//       <Footer />
-//     </>
-//   );
-// }
 
 export default App;
