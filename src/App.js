@@ -1,5 +1,5 @@
 import "./App.css";
-
+import React, { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import BookMySlot from "./components/BookMySlot/BookMySlot";
@@ -16,8 +16,11 @@ import Error from "./components/Error";
 import ScrollToTop from "./components/ScrollToTop";
 import TestimonialsPage from "./components/HomePage/Testimonials/TestimonialsPage";
 import About from "./components/HomePage/AboutUs/About";
+import SalonDetails from "./Details/SalonDetails";
 
 function App() {
+  const [detail, setDetails] = useState(SalonDetails);
+
   return (
     <Router>
       <ScrollToTop />
@@ -39,7 +42,11 @@ function App() {
           <Route path="/login-user" element={<LoginUser />} />
           <Route path="/sign-up-user" element={<SignUpUser />} />
 
-          <Route path="/open-card" element={<OpenCard />} />
+          {detail.map((detail) => {
+            return (
+              <Route path={`/open-card/${detail.id}`} element={<OpenCard />} />
+            );
+          })}
           <Route path="/testimonials" element={<TestimonialsPage />} />
 
           <Route path="*" element={<Error />} />

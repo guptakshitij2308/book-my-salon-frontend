@@ -7,6 +7,7 @@ import Card from "./Card/Card";
 // import AboutUs from "./AboutUs/AboutUs";
 // import ContactForm from "./ContactUs/ContactForm";
 import FeaturedIn from "../FeaturedIn/FeaturedIn";
+import HowItWorks from "./HowItWorks/HowItWorks";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,8 @@ const HomePage = () => {
         <Card />
       </div>
       <FeaturedIn />
+
+      <HowItWorks />
 
       {/* <AboutUs /> */}
       {/* <Testimonials /> */}

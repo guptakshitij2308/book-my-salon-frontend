@@ -1,8 +1,8 @@
 import "./CardStyles.css";
 import React, { useState } from "react";
 import SalonDetails from "../../../Details/SalonDetails";
-import { Link } from "react-router-dom";
-import OpenCard from "../../OpenCard/OpenCard";
+import { Link, Outlet } from "react-router-dom";
+// import OpenCard from "../../OpenCard/OpenCard";
 
 const Card = () => {
   // eslint-disable-next-line
@@ -21,7 +21,10 @@ const Card = () => {
             return (
               <div className="column" key={detail.id}>
                 <div className="Salon">
-                  <Link to="/open-card">
+                  <Link
+                    to={`/open-card/${detail.id}`}
+                    style={{ textDecoration: "none" }}
+                  >
                     <div className="card">
                       <div className="salon-image">
                         <div className="salon-tag">Best</div>
@@ -57,6 +60,7 @@ const Card = () => {
               </div>
             );
           })}
+          <Outlet />
         </div>
 
         <div className="more-salons">

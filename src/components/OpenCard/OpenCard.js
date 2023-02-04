@@ -12,7 +12,7 @@ function OpenCard() {
         <div className="container-card">
           <div>
             <h1 className="salonName">Lorem ipsum</h1>
-            <Link to="/book-my-slot">
+            <Link to="/book-my-slot" style={{ textDecoration: "none" }}>
               <a className="button-card">Book Now</a>
             </Link>
           </div>
