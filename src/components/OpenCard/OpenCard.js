@@ -1,5 +1,6 @@
 import "./OpenCard.css";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function OpenCard() {
   return (
@@ -11,7 +12,9 @@ function OpenCard() {
         <div className="container-card">
           <div>
             <h1 className="salonName">Lorem ipsum</h1>
-            <a className="button-card">Book Now</a>
+            <Link to="/book-my-slot">
+              <a className="button-card">Book Now</a>
+            </Link>
           </div>
           <div className="Stars">
             <i class="fa-solid fa-star"></i>

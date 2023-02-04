@@ -14,7 +14,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import Error from "./components/Error";
 import ScrollToTop from "./components/ScrollToTop";
-import Testimonials from "./components/HomePage/Testimonials/Testimonials";
+import TestimonialsPage from "./components/HomePage/Testimonials/TestimonialsPage";
+import About from "./components/HomePage/AboutUs/About";
 
 function App() {
   return (
@@ -25,19 +26,21 @@ function App() {
         {/* <OpenCard /> */}
         <Routes>
           {/*Home  */}
-          <Route path="/" element={<HomePage />}>
-            <Route path="/testimonials" element={<Testimonials />} />
-          </Route>
+          <Route path="/" element={<HomePage />} />
+          {/* <Route path="/testimonials" element={<Testimonials />} /> */}
+          {/* </Route> */}
 
           {/* <Route path='/' */}
           <Route path="/book-my-slot" element={<BookMySlot />} />
           <Route path="/login-owner" element={<LoginOwner />} />
           <Route path="/register-salon" element={<SignupOwner />} />
+          <Route path="/about-us" element={<About />} />
 
           <Route path="/login-user" element={<LoginUser />} />
           <Route path="/sign-up-user" element={<SignUpUser />} />
 
           <Route path="/open-card" element={<OpenCard />} />
+          <Route path="/testimonials" element={<TestimonialsPage />} />
 
           <Route path="*" element={<Error />} />
         </Routes>

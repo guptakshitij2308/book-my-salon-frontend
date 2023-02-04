@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -51,20 +52,28 @@ const Footer = () => {
         </div>
         <div className="Account ">
           <div className="Footer-Heading">Account</div>
+          <Link to="/sign-up-user">
+            <a href="/sign-up-user">
+              Create account
+              <i class="fa-solid fa-user-plus"></i>
+            </a>
+          </Link>
+          <Link to="/login-user">
+            <a href="/login-user">
+              Sign in<i class="fa-solid fa-arrow-right-to-bracket"></i>
+            </a>
+          </Link>
+          <Link to="/register-salon">
+            <a a href="/register-salon">
+              Register salon<i class="fa-regular fa-address-card"></i>
+            </a>
+          </Link>
 
-          <a href="/">
-            Create account
-            <i class="fa-solid fa-user-plus"></i>
-          </a>
-          <a href="/">
-            Sign in<i class="fa-solid fa-arrow-right-to-bracket"></i>
-          </a>
-          <a a href="/">
-            Register salon<i class="fa-regular fa-address-card"></i>
-          </a>
-          <a a href="/">
-            Sign in owner<i class="fa-solid fa-circle-user"></i>
-          </a>
+          <Link to="/login-owner">
+            <a a href="/login-owner">
+              Sign in owner<i class="fa-solid fa-circle-user"></i>
+            </a>
+          </Link>
         </div>
         <div className="Company">
           <div className="Footer-Heading">Learn More</div>

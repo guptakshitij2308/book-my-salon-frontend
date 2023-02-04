@@ -120,6 +120,10 @@
   transition: all 0.2s ease-in-out;
 }
 
+.Navbar-Items a {
+  text-decoration: none;
+}
+
 /* Link {
   text-decoration: none;
 } */

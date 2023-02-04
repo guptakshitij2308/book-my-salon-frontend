@@ -8,7 +8,7 @@ export const MenuData = [
 
   {
     title: "About Us",
-    url: "#",
+    url: "/about-us",
     cName: "nav-links",
     icon: "fa-solid fa-circle-info",
   },

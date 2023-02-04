@@ -1,11 +1,19 @@
 .Card-Component {
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
 .salon {
   padding-top: 3rem;
   padding-bottom: 1rem;
   display: grid;
   place-items: center;
+}
+
+#popular-salons {
+  padding-top: 200px;
+}
+
+.Salon {
+  text-decoration: none;
 }
 
 .center h3 {
