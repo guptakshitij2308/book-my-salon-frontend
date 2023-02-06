@@ -85,6 +85,10 @@
 .Account a i {
   padding-left: 7px;
 }
+.Account a:hover {
+  /* padding-left: 7px; */
+  transform: scale(1.1);
+}
 .Company {
   height: 200px;
   display: flex;
