@@ -90,7 +90,9 @@ const OpenCard = () => {
               </div>
             </div>
           </div>
-          <a className="book-now">Book Now</a>
+          <Link to="/book-my-slot">
+            <a className="book-now">Book Now</a>
+          </Link>
         </div>
       </div>
     </div>
